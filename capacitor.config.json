@@ -1,0 +1,10 @@
+{
+  "appId": "com.homegram.app",
+  "appName": "Homegram",
+  "webDir": "renderer",
+  "server": {
+    "url": "https://homegram.onrender.com",
+    "androidScheme": "https",
+    "cleartext": true
+  }
+}

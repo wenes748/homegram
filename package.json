@@ -1,0 +1,26 @@
+{
+  "name": "homegram",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.homegram.app",
+    "productName": "Homegram",
+    "files": ["main.js", "renderer/**/*"],
+    "win": { "target": "portable" },
+    "portable": { "artifactName": "Homegram.exe" }
+  },
+  "devDependencies": {
+    "electron": "^30.0.0",
+    "electron-builder": "^24.13.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  }
+}

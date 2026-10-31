@@ -1,0 +1,9 @@
+node_modules/
+android/
+dist/
+local.properties
+package-lock.json
+.gradle/
+.idea/
+*.log
+.DS_Store
