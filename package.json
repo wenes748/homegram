@@ -9,11 +9,21 @@
   "build": {
     "appId": "com.homegram.app",
     "productName": "Homegram",
-    "files": ["main.js", "renderer/**/*"],
-    "win": { "target": "portable" },
-    "portable": { "artifactName": "Homegram.exe" }
+    "files": [
+      "main.js",
+      "renderer/**/*"
+    ],
+    "win": {
+      "target": "portable"
+    },
+    "portable": {
+      "artifactName": "Homegram.exe"
+    }
   },
   "devDependencies": {
+    "@capacitor/android": "^8.6.0",
+    "@capacitor/cli": "^8.6.0",
+    "@capacitor/core": "^8.6.0",
     "electron": "^30.0.0",
     "electron-builder": "^24.13.3"
   },
@@ -21,6 +31,6 @@
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "socket.io": "^4.7.5",
-    "socket.io-client": "^4.7.5"
+    "socket.io-client": "^4.8.4"
   }
 }

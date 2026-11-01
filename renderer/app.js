@@ -1,4 +1,4 @@
-const socket = io('https://oblgram.onrender.com', { transports: ['websocket'] });
+const socket = io('https://homegram.onrender.com', { transports: ['websocket'] });
 
 let ME = null;
 let CURRENT = null;
